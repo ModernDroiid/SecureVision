@@ -210,3 +210,17 @@ document.addEventListener('click', (e) => {
     }
 
 });
+
+const dropdownLinks =
+document.querySelectorAll('.dropdown-link');
+
+dropdownLinks.forEach(link => {
+
+    link.addEventListener('click', () => {
+
+        nav.classList.remove('active');
+
+        dropdown.classList.remove('active');
+    });
+
+});

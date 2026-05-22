@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+html {
+
+    scroll-behavior: smooth;
+}
+
 /* BODY */
 
 body {
@@ -99,6 +104,33 @@ button:hover {
     position: relative;
 
     display: inline-block;
+}
+
+/* SERVICES MENU */
+
+.services-menu {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 6px;
+}
+
+/* FLECHA */
+
+.services-toggle {
+
+    cursor: pointer;
+
+    color: white;
+
+    transition: 0.3s;
+}
+
+.services-toggle:hover {
+
+    color: #00d4ff;
 }
 
 /* CONTENIDO OCULTO */
@@ -572,24 +604,19 @@ nav a:hover::after {
 /* BOTON PRINCIPAL */
 
 .primary-btn {
-
     background: #00d4ff;
-
     color: black;
-
     border: none;
-
     padding: 18px 34px;
-
     border-radius: 14px;
-
     font-size: 16px;
-
     font-weight: bold;
-
     cursor: pointer;
-
     transition: 0.3s;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .primary-btn:hover {
@@ -605,22 +632,18 @@ nav a:hover::after {
 /* BOTON SECUNDARIO */
 
 .secondary-btn {
-
     background: transparent;
-
     border: 1px solid rgba(255,255,255,0.1);
-
     color: white;
-
     padding: 18px 34px;
-
     border-radius: 14px;
-
     font-size: 16px;
-
     cursor: pointer;
-
     transition: 0.3s;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .secondary-btn:hover {

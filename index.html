@@ -41,29 +41,47 @@
 
             <div class="dropdown">
 
-            <a href="#" class="services-toggle">
+            <div class="services-menu">
 
-            Servicios ▼
+    <a href="#servicios">
 
-            </a>
+        Servicios
+
+    </a>
+
+    <span class="services-toggle">
+
+        ▼
+
+    </span>
+
+</div>
 
             <div class="dropdown-content">
 
-                    <a href="#">CCTV Inteligente</a>
+    <a href="#servicios" class="dropdown-link">
+        CCTV Inteligente
+    </a>
 
-                    <a href="#">Sistema de Intrusión</a>
+    <a href="#servicios" class="dropdown-link">
+        Sistema de Intrusión
+    </a>
 
-                    <a href="#">Control de Acceso</a>
+    <a href="#servicios" class="dropdown-link">
+        Control de Acceso
+    </a>
 
-                    <a href="#">Monitoreo 24/7</a>
+    <a href="#servicios" class="dropdown-link">
+        Monitoreo 24/7
+    </a>
 
-                </div>
+</div>
 
             </div>
 
-            <a href="#">Nosotros</a>
+            <a href="#nosotros">Nosotros</a>
 
-            <a href="#">Contacto</a>
+            <a href="#contacto">Contacto</a>
 
         </nav>
 
@@ -72,7 +90,7 @@
     <!-- =========================
          HERO
     ========================== -->
-<section class="hero reveal">
+<section class="hero reveal" id="inicio">
 
     <!-- FONDO GLOW -->
 
@@ -111,17 +129,16 @@
 
             <div class="hero-buttons">
 
-                <button class="primary-btn">
+                <a href="https://wa.me/573142073856?text=Hola,%20quiero%20cotizar%20un%20sistema%20de%20seguridad."
+                target="_blank"
+                class="primary-btn">
+                Solicitar Cotización
+                </a>
 
-                    Solicitar Cotización
-
-                </button>
-
-                <button class="secondary-btn">
-
+                <a href="#servicios"
+                    class="secondary-btn">
                     Ver Servicios
-
-                </button>
+                </a>
 
             </div>
 
@@ -206,7 +223,7 @@
          SERVICIOS
     ========================== -->
 
-    <section class="services reveal">
+    <section class="services reveal" id="servicios">
 
         <h2>Nuestros Servicios</h2>
 
@@ -397,7 +414,7 @@
      NOSOTROS
 ========================= -->
 
-<section class="about reveal">
+<section class="about reveal" id="nosotros">
 
     <div class="about-container">
 
@@ -642,11 +659,12 @@
 
 </section>
 
+
 <!-- =========================
      FOOTER
 ========================= -->
 
-<footer class="footer">
+<footer class="footer" id="contacto">
 
     <div class="footer-container">
 
@@ -680,13 +698,17 @@
 
             </h3>
 
-            <a href="#">Inicio</a>
+            <a href="#inicio">Inicio</a>
 
-            <a href="#">Servicios</a>
+            <a href="#servicios">
 
-            <a href="#">Nosotros</a>
+            Servicios
 
-            <a href="#">Contacto</a>
+            </a>
+
+            <a href="#nosotros">Nosotros</a>
+
+            <a href="#contacto">Contacto</a>
 
         </div>
 
@@ -700,14 +722,13 @@
 
             </h3>
 
-            <a href="#">CCTV Inteligente</a>
+            <a href="#servicios">CCTV Inteligente</a>
 
-            <a href="#">Control de Acceso</a>
+            <a href="#servicios">Sistema de Intrusión</a>
 
-            <a href="#">Sistema Intrusión</a>
+            <a href="#servicios">Control de Acceso</a>
 
-            <a href="#">Monitoreo 24/7</a>
-
+            <a href="#servicios">Monitoreo 24/7</a>
         </div>
 
         <!-- CONTACTO -->
